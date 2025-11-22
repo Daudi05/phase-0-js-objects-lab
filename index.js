@@ -1,11 +1,11 @@
 //Write your code here
 //create the attendee object
 let attendee= {
-  attendeeID: "T001",
+  attendeeId: "T001",
   name: "Alice Smith",
-  Event: "Javascript Conference",
+  event: "JavaScript Conference",
   ticketType: "VIP",
-  TicketPrice: 150
+  ticketPrice: 150
 }
 // Logging attendee name
 function logAttendeeName(attendee) {
@@ -18,20 +18,20 @@ function logTicketPrice(attendee) {
 }
 // Updating ticket type
 function updateTicketType(attendee, newTicketType) {
-  attendee.ticketType = newTickettype
+  attendee.ticketType = newTicketType
 }
 // Updating ticket price
 function updateTicketPrice(attendee, newTicketPrice) {
   attendee.ticketPrice = newTicketPrice
 }
-// Removing the even property
+// Removing the event property
 function removeEventProperty(attendee) {
-  delete ticketPrice.event
+  delete attendee.event
 }
 
 // Adding checked in property
   function addCheckedInProperty(attendee) {
-  ticketPrice.addCheckedInProperty = true
+  attendee.checkedIn = true
 }
 //addCheckedInProperty()
 console.log(attendee)
